@@ -30,10 +30,10 @@ export default function HomeScreen({ navigation }: any) {
   // Estado que armazenará a lista de ONGs
   const [ongs, setOngs] = useState<Ong[]>([]);
 
-  // Executa quando a tela é aberta
+  
   useEffect(() => {
 
-    // Carrega as ONGs cadastradas
+    
     carregarOngs();
 
     // Atualiza a lista sempre que voltar para esta tela
@@ -41,7 +41,7 @@ export default function HomeScreen({ navigation }: any) {
       carregarOngs();
     });
 
-    // Remove o listener quando a tela for desmontada
+    
     return unsubscribe;
 
   }, [navigation]);
