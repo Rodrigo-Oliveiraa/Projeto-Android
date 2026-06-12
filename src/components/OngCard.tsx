@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Importa os componentes visuais do React Native
 import {
   View,
   Text,
@@ -7,6 +8,8 @@ import {
   TouchableOpacity,
   StyleSheet
 } from 'react-native';
+
+// Componente responsável por mostrar um cartão com os dados de uma ONG
 
 export default function OngCard({
   ong,
