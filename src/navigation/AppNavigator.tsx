@@ -1,6 +1,8 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+    //Importa as outras paginas
+
 import HomeScreen from '../screens/HomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import CadastroScreen from '../screens/CadastroScreen';
@@ -14,7 +16,7 @@ export default function AppNavigator() {
     <Stack.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerShown: false, // 🔥 remove a barra superior de todas as telas
+        headerShown: false, // remove a barra superior de todas as telas
       }}
     >
       <Stack.Screen

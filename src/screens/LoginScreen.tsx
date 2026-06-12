@@ -9,6 +9,8 @@ import {
   Alert,
 } from 'react-native';
 
+    //cria a pagina de login 
+
 import {
   buscarOngPorLogin,
 } from '../database/database';

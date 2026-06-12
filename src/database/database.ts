@@ -20,7 +20,7 @@ if (Platform.OS !== 'web') {
 }
 
 /* =========================
-   CRIAR TABELA
+   Criar Tabela
 ========================= */
 export function criarTabela() {
   if (Platform.OS === 'web') return;
@@ -46,7 +46,7 @@ export function criarTabela() {
 }
 
 /* =========================
-   WEB STORAGE HELPERS
+   Web Storage Helpers
 ========================= */
 function getWebData(): Ong[] {
   return JSON.parse(localStorage.getItem('ongs') || '[]');
@@ -57,7 +57,7 @@ function setWebData(data: Ong[]) {
 }
 
 /* =========================
-   INSERIR ONG
+   Inserir ong
 ========================= */
 export function inserirOng(
   nome: string,
@@ -111,7 +111,7 @@ export function inserirOng(
 }
 
 /* =========================
-   LOGIN
+   Login
 ========================= */
 export function buscarOngPorLogin(email: string, senha: string) {
   if (Platform.OS === 'web') {
@@ -136,7 +136,7 @@ export function buscarOngPorLogin(email: string, senha: string) {
 }
 
 /* =========================
-   LISTAR ONGS (HOME)
+   Listar ongs (Home)
 ========================= */
 export function buscarTodasOngs(): Ong[] {
   if (Platform.OS === 'web') {
@@ -157,7 +157,7 @@ export function buscarTodasOngs(): Ong[] {
 }
 
 /* =========================
-   ATUALIZAR ONG
+   Atualizar ong
 ========================= */
 export function atualizarOng(
   id: number,
@@ -216,7 +216,7 @@ export function atualizarOng(
 }
 
 /* =========================
-   EXCLUIR ONG
+   Excluir ong
 ========================= */
 export function excluirOng(id: number) {
   if (Platform.OS === 'web') {

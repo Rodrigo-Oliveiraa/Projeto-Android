@@ -8,6 +8,8 @@ import {
   ScrollView,
 } from 'react-native';
 
+      //puxa os dados do banco das ongs
+
 export default function PerfilScreen({
   route,
   navigation,

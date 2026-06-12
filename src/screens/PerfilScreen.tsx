@@ -8,6 +8,8 @@ import {
   ScrollView,
 } from 'react-native';
 
+    //cria a pagina de perfil e insere os dados do banco
+
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function PerfilScreen({

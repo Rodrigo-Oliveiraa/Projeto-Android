@@ -10,6 +10,8 @@ import {
   Image,
 } from 'react-native';
 
+//cria a função de editar perfil e salvar
+
 export default function EditarPerfilScreen({
   route,
   navigation,

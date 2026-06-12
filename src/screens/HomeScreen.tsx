@@ -8,6 +8,8 @@ import {
   Image,
 } from 'react-native';
 
+        //puxa os perfils e cria os icones de login e cadastro
+
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { buscarTodasOngs } from '../database/database';
